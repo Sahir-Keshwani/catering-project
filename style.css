@@ -1,0 +1,133 @@
+body,
+nav,
+.section {
+  font-family: "Times New Roman", Times, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+
+.ls {
+  letter-spacing: 5px;
+}
+
+.pad {
+  margin-right: 1.5px;
+}
+
+.navbar {
+  box-shadow: 0 -3px 10px black;
+  letter-spacing: 4px;
+  max-width: 100%;
+}
+
+.main-img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-position {
+    position: relative;
+    top: -55px;
+}
+
+
+.bottom-left {
+  position: absolute;
+  bottom: 55px;
+}
+
+.section {
+    max-width: 1100px;
+    /* max-width: 68.75rem; */
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.section-img {
+  /* width: 31.25rem; */
+  width: 96%;
+}
+
+.about-text {
+  max-width: 95%;
+  /* text-align: center; */
+  /* margin: auto; */
+  font-size: 18px;
+}
+
+.about-word {
+  background-color: rgb(220,220,220, 0.25);
+  padding: 8px;
+}
+
+hr {
+  opacity: 0.1;
+  border: 0;
+  height: 0;
+}
+
+.address {
+  color: #607d8b;
+}
+
+input {
+  height: 50px;
+}
+
+
+footer {
+  padding: 38px;
+  background-color: rgb(220,220,220, 0.50);
+}
+
+
+@media screen and (max-width: 768px) {
+  .main-img {
+    max-width: 100%;
+  }
+
+  .about-para-2 {
+    display: none;
+  }
+
+  .contact {
+    max-width: 95%;
+    margin: auto;
+    font-size: small;
+
+  }
+
+  form {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .main-position {
+    top: -45px;
+  }
+
+  .about-img {
+    display: none;
+  }
+  .col-hide {
+    display: none;
+  }
+
+  .about-para-2 {
+    display: block;
+  }
+
+
+}
